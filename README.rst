@@ -30,8 +30,9 @@ To run:
     $ cp ./setup.ipynb ~/ipython/data/
     $ docker-compose up
     $ # The terminal will spit out a url like this: http://localhost:8888/?token=
-    $
-    $ # To shutdown the setup do ctrl-c in the window where you did
-    docker-compose up or:
+
+To stop:
+::
+    $ # ctrl-c in the docker-compose up window or
     $ docker-compose down
 
