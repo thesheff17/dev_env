@@ -16,10 +16,10 @@ helper.py
 setup.ipynb
     : a default example of how to use ipython with sqlalchemy
 
-This setup assumes some default directories to remember state with docker::
-    ~/ipython/postgres - postgres data::
-    ~/ipython/images   - docker save location::
-    ~/ipython/data     - mapped directory for the notebooks::
+default directory structure:
+    : ~/ipython/postgres - postgres data
+    : ~/ipython/images   - docker save location
+    : ~/ipython/data     - directory mapped into the notebook docker container
 
 To run:
 ::
