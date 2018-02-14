@@ -8,7 +8,7 @@ Created By Dan Sheffner
 overview
 ~~~~~~~~~~~~~
 
-docker-compose.yml 
+docker-compose.yml
     | dev_env with python/ipython/junipter notebooks
     | contains a postgres server
 
@@ -29,4 +29,8 @@ To run:
     $ mkdir -p ~/ipython/data ~/ipython/images ~/ipython/postgres
     $ cp ./setup.ipynb ~/ipython/data/
     $ docker-compose up
+    $ # The terminal will spit out a url like this: http://localhost:8888/?token=
+    $
+    $ # To shutdown the setup
+    $ docker-compose down
 
