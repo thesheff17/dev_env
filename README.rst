@@ -31,6 +31,7 @@ To run:
     $ docker-compose up
     $ # The terminal will spit out a url like this: http://localhost:8888/?token=
     $
-    $ # To shutdown the setup
+    $ # To shutdown the setup do ctrl-c in the window where you did
+    docker-compose up or:
     $ docker-compose down
 
