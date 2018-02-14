@@ -9,17 +9,19 @@ overview
 ~~~~~~~~~~~~~
 
 docker-compose.yml 
-    : dev_env with python/ipython/junipter notebooks
-    : contains a postgres server
+    | dev_env with python/ipython/junipter notebooks
+    | contains a postgres server
+
 helper.py
-    : a script to manage docker containers
+    | a script to manage docker containers
+
 setup.ipynb
-    : a default example of how to use ipython with sqlalchemy
+    | a default example of how to use ipython with sqlalchemy
 
 default directory structure:
-    : ~/ipython/postgres - postgres data
-    : ~/ipython/images   - docker save location
-    : ~/ipython/data     - directory mapped into the notebook docker container
+    | ~/ipython/postgres - postgres data
+    | ~/ipython/images   - docker save location
+    | ~/ipython/data     - directory mapped into the notebook docker container
 
 To run:
 ::
