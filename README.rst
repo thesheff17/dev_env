@@ -1,6 +1,12 @@
 dev_env
 =======
 
+Created By Dan Sheffner
+-----------------------
+
+
+overview
+~~~~~~~~~~~~~
 
 docker-compose.yml - dev_env with python/ipython/junipter notebooks
                    - contains a postgres server
@@ -16,5 +22,7 @@ This setup assumes some default directories to remember state with docker
 To run:
 ::
     $ git clone https://github.com/thesheff17/dev_env.git
-    # docker-compose up
+    $ mkdir -p ~/ipython/data ~/ipython/images ~/ipython/postgres
+    $ cp ./setup.ipynb ~/ipython/data/
+    $ docker-compose up
 
